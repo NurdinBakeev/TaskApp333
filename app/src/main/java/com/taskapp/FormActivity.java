@@ -21,6 +21,7 @@ public class FormActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
+
         String title = editTitle.getText().toString().trim();
         String desc = editDesc.getText().toString().trim();
 
